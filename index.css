@@ -1,0 +1,31 @@
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Karla', sans-serif;
+}
+
+#container {
+    max-width: 375px;
+  
+    /* Center the container in middle on horizontal axis */
+    margin: 0 auto;
+  
+    /* Add empty space above the container (20% of the view height) */
+    margin-top: 10vh;
+    
+  }
+.card{
+    background-color: white;
+    padding: 35px;
+    
+    border-radius: 12px;
+}
+p{
+    text-align: center;
+    font-size: 15px;
+}
+img{
+    width: 100%;
+    border-radius: 12px;
+    height: 300px;
+}
